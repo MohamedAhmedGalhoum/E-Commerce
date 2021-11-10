@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GalhoumStore</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="../E-Commerce/images/logo.png" width="125px">
+                </div>
+                <nav>
+                    <ul id="menuItems">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Account</a></li>
+                    </ul>
+                    <img src=".//images/cart.png" width="30px" height="30px">
+                    <img src="../E-Commerce/images/menu.png" class="menu-icon" onclick="menutoggle()">
+                </nav>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Choose what suits you <br>clothes, shoes and models</h1>
+                    <h3>
+                        We really wish you a wonderful round of exploration of our product
+                    </h3>
+                    <a href="" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="../E-Commerce//images/diana-polekhina-y3q-2m9zBoA-unsplash.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------featured categories------->
+    <div class="small-container">
+        <div class="categories">
+            <div class="row">
+                <div class="col-3">
+                    <img src="./images/category-1.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="./images/category-2.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="./images/category-3.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------featured products------->
+    <div class="small container">
+        <h2 class="title">Featured products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-1.jpg">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="price">$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-2.jpg">
+                <h4>Black Shose</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="price">$80.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-3.jpg">
+                <h4> Gray pants</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="price">$70.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-4.jpg">
+                <h4>Blue Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="price">$50.00</p>
+            </div>
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-5.jpg">
+                <h4>Gray Shose</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="price">$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-6.jpg">
+                <h4>Black Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="price">$80.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-7.jpg">
+                <h4>paire of shoe</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="price">$70.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-8.jpg">
+                <h4>Black Clock</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="price">$50.00</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-9.jpg">
+                <h4>Black Clock</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="price">$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-10.jpg">
+                <h4>Black Shose</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="price">$80.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-11.jpg">
+                <h4> Gray shose</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="price">$70.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-12.jpg">
+                <h4>Black Pants</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="price">$50.00</p>
+            </div>
+        </div>
+    </div>
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/exclusive.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p class="price">Exclusively Available on GalhoumStore</p>
+                    <h1>Smart Band 4</h1>
+                    <small>
+                        Attractive offer on Band 4 watch for a limited time 40% off the original price
+                    </small>
+                    <a href="" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------testimonial------->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <p class="price">
+                        <i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cumque nemo dolor aut nisi esse delectus voluptas suscipit ad, ullam atque ex sit eveniet quasi laudantium nihil saepe mollitia vero!
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="../E-Commerce/images/user-1.png">
+                    <h3>Alaa Gad</h3>
+                </div>
+                <div class="col-3">
+                    <p class="price">
+                        <i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cumque nemo dolor aut nisi esse delectus voluptas suscipit ad, ullam atque ex sit eveniet quasi laudantium nihil saepe mollitia vero!
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="../E-Commerce/images/user-2.png">
+                    <h3>Mohamed Ahmed</h3>
+                </div>
+                <div class="col-3">
+                    <p class="price">
+                        <i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cumque nemo dolor aut nisi esse delectus voluptas suscipit ad, ullam atque ex sit eveniet quasi laudantium nihil saepe mollitia vero!
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="../E-Commerce/images/user-3.png">
+                    <h3>Aya Galhoum</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="../E-Commerce/images/logo-oppo.png">
+                </div>
+                <div class="col-5">
+                    <img src="../E-Commerce/images/logo-godrej.png">
+                </div>
+                <div class="col-5">
+                    <img src="../E-Commerce/images/logo-coca-cola.png">
+                </div>
+                <div class="col-5">
+                    <img src="../E-Commerce/images/logo-paypal.png">
+                </div>
+                <div class="col-5">
+                    <img src="../E-Commerce/images/logo-philips.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------footer------------>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App For Android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="../E-Commerce/images/play-store.png">
+                        <img src="../E-Commerce/images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="../E-Commerce/images/logo-white.png">
+                    <p class="price">
+                        Our Purpose Is to Sustainably Make the Pleasure and Benefits of Sports Accessible to the many.
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3 class="use">Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3 class="use2">Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="Copyright">Copyright-2021 Eng:Mohamed Galhoum</div>
+    </div>
+</body>
+
+</html>
